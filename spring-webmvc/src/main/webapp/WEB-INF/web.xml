@@ -1,4 +1,6 @@
 <web-app>
+
+    <!--
     <servlet>
         使用可执行 Tomcat Maven 插件
         Spring Framework 时代的重新认识
@@ -15,4 +17,5 @@
         <servlet-name>app</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
+    -->
 </web-app>
