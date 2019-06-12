@@ -11,12 +11,12 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
-@EnableWebMvc
+@EnableWebMvc  //代替app-context.xml里的HandlerMapping，HandlerAdapter
 public class WebMvcConfig {
 
     @Bean
-    public ViewResolver viewResolver(){
-        InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
+    public ViewResolver viewResolver(){       //代替app-context.xml里的HandlerMapping，InternalResourceViewResolver
+        InternalResourceViewResolver viewResolver = new  InternalResourceViewResolver();
         viewResolver.setViewClass(JstlView.class);
         viewResolver.setPrefix("/WEB-INF/jsp/");
         viewResolver.setSuffix(".jsp");

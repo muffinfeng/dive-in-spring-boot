@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
 
-@EnableAutoConfiguration
+@EnableAutoConfiguration   //自动装配 spring.factories里面的类
 public class EnableAutoConfigurationBootstrap {
 
     public static void main(String[] args) {

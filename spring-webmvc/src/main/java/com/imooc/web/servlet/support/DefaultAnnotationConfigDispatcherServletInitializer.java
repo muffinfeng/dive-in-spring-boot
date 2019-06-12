@@ -3,7 +3,7 @@ package com.imooc.web.servlet.support;
 import com.imooc.web.config.DispatcherServletConfiguration;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-// spring web MVC 自动装配 默认实现
+// spring web MVC 自动装配 默认实现      代替了web.xml里声明dispatcherServlet，和它的mapping("/")
 public class DefaultAnnotationConfigDispatcherServletInitializer extends AbstractAnnotationConfigDispatcherServletInitializer{
     @Override
     protected Class<?>[] getRootConfigClasses() {
