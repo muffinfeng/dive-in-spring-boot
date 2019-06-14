@@ -1,9 +1,7 @@
-<html xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
-
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
     <body>
-        ${message}
-        ${acceptLanguage}
-        ${jsessionId}
+    <message>${message}</message>
+    <language>${acceptLanguage}</language>
+    <jsessionId>${jsessionId}</jsessionId>
     </body>
-
-</html>
+</jsp:root>
